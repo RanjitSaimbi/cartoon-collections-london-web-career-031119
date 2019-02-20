@@ -7,13 +7,13 @@ def roll_call_dwarves(dwarves)
 end 
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.collect do |x| 
-    x.capitalize + "!" 
+  planeteer_calls.collect do |call| 
+    call.capitalize + "!" 
   end 
 end
 
 def long_planeteer_calls(planeteer_calls)
-  # Your code here
+  planeteer_calls.any do |words|
 end
 
 def find_the_cheese# code an argument here
